@@ -2,7 +2,7 @@
 const { ipcRenderer } = require('electron');
 
 
-var closeApp = document.querySelector('.close');
+var closeApp = document.getElementById('closeApp');
 let Data = {
     message: "Hi",
     someData: "Let's go"

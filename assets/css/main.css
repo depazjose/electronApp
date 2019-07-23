@@ -3654,20 +3654,3 @@ body.is-preload #sidebar nav ul li {
         background-attachment: scroll;
     }
 }
-
-.close {
-    cursor: pointer;
-    display: inline-block;
-    height: 32px;
-    position: absolute;
-    text-indent: -10000px;
-    top: 6px;
-    width: 32px;
-    z-index: 1;
-    -webkit-app-region: no-drag;
-}
-
-.close {
-    background-size: 24px 24px;
-    right: 6px;
-}

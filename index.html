@@ -13,16 +13,15 @@
 
     <!-- Sidebar -->
     <section id="sidebar">
-        <!-- <button id="closeApp" type="button">Exit!</button> -->
-
         <div class="inner">
             <nav>
                 <ul>
-                    <li><a href="#closeApp">Welcome</a></li>
+                    <li><a href="#intro">Welcome</a></li>
                     <li><a href="#one">Who we are</a></li>
                     <li><a href="#two">What we do</a></li>
                     <li><a href="#three">Get in touch</a></li>
-                    <li><button id="closeApp" class="close" type="button">Exit!</button> </li>
+                    <li><a href="#" id="closeApp">Exit</a></li>
+                    <!-- <li><button id="closeApp" class="button scrolly" type="button">Exit!</button> </li> -->
                 </ul>
             </nav>
         </div>
@@ -32,7 +31,7 @@
     <div id="wrapper">
 
         <!-- Intro -->
-        <section id="closeApp" class="wrapper style1 fullscreen fade-up">
+        <section id="intro" class="wrapper style1 fullscreen fade-up">
             <div class="inner">
                 <h1>Electron tutorial app!</h1>
                 <p>Hopefully this helps someone to get up to speed with electron.</p>
@@ -204,7 +203,6 @@
         </div>
     </footer>
 
-    <script src="src/index.js"></script>
     <!-- Scripts -->
     <script>
         window.$ = window.jQuery = require('./assets/js/jquery.min.js');
@@ -214,6 +212,7 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="src/index.js"></script>
 
 </body>
 
